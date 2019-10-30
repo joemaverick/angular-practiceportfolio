@@ -1,0 +1,30 @@
+
+p {
+  font-family: Lato;
+}
+div {
+  display:inline-block;
+  width: 300px;
+  border: 15px outset blue;
+  padding: 50px;
+  margin: 20px;
+}
+
+.boxTwo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: groove;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
